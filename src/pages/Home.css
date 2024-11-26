@@ -58,21 +58,17 @@ h1, h2, h3, p {
   flex-wrap: wrap;
 }
 
-/* Ensure "Hi, I am" stays in place */
 .static-text {
-  color: #ffffff; /* White text */
-  display: inline-block;
-  min-width: 100px; /* Adjust width based on the static text */
-  text-align: right;
-  position: relative;
+  color: #ffffff; /* Static text stays white */
 }
 
 .highlight-wrapper {
   display: inline-block;
+  text-align: left;
   overflow: hidden;
   position: relative;
+  margin-left: 10px;
 }
-
 
 .highlight {
   color: #1af623; /* Dynamic text in green */

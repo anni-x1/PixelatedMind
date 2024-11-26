@@ -49,8 +49,8 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-typing-wrapper">
           <h1 className="hero-title">
-            <span className="text-container">
-              <span className="static-text">Hi, I am</span>
+            <span className="static-text">Hi, I am{'\u00A0'}</span>
+            <span className="highlight-wrapper">
               <span className="highlight">{text}</span>
             </span>
           </h1>
@@ -62,8 +62,8 @@ const Home = () => {
       <section id="about" className="about-section">
         <h2>About Me</h2>
         <p>
-          I’m an aspiring software developer with a deep passion for <b>web development</b>,
-          <b>ethical hacking</b>, and <b>data structures & algorithms</b>. Always curious to explore new
+          I’m an aspiring software developer with a deep passion for <b>web development</b>, 
+          <b>ethical hacking</b>, and <b>data structures & algorithms</b>. Always curious to explore new 
           technologies and solve challenging problems, I strive to build efficient and innovative solutions.
         </p>
       </section>
